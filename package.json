@@ -1,0 +1,14 @@
+{
+  "name": "express-middleware-module-loader",
+  "version": "0.0.1",
+  "description": "Express Middleware Module Loader",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ty Eggen",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
