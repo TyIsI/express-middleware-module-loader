@@ -35,7 +35,7 @@ function loadModulesFromDirectory(search_dir) {
     });
 }
 
-var getModules = function () {
+var getModulesList = function () {
     return Object.keys(modules_cache);
 }
 
@@ -58,11 +58,11 @@ var loadModule = function (dirs = []) {
         loadModulesFromDirectory(dir);
     })
 
+    router.getModulesList = getModulesList;
+
     return router;
 };
 
 module.exports = loadModule;
-
-module.exports.getModules = getModules;
 
 exports = module.exports;
