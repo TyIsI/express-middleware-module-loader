@@ -1,6 +1,6 @@
 {
   "name": "express-middleware-module-loader",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Express Middleware Module Loader",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,9 @@
   "author": "Ty Eggen",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.16.3"
-  }
+    "debug": "4*",
+    "express": "4*"
+  },
+  "homepage": "https://github.com/TyIsI/express-middleware-module-loader",
+  "repository": "github:TyIsI/express-middleware-module-loader"
 }

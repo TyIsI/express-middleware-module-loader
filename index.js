@@ -2,7 +2,7 @@
 
 var express = require('express');
 var router = express.Router();
-var debug = require('debug')('express-middleware-loader');
+var debug = require('debug')('express-middleware-module-loader');
 
 var fs = require('fs');
 var path = require('path');
