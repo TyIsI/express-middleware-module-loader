@@ -4,7 +4,11 @@
   "description": "Express Middleware Module Loader",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "npx standard-version",
+    "postrelease": "git push --follow-tags origin main",
+    "commit": "npx git-cz",
+    "push": "git push"
   },
   "author": "Ty Eggen",
   "license": "MIT",
@@ -13,5 +17,13 @@
     "express": "4.x"
   },
   "homepage": "https://github.com/TyIsI/express-middleware-module-loader",
-  "repository": "github:TyIsI/express-middleware-module-loader"
+  "repository": "github:TyIsI/express-middleware-module-loader",
+  "devDependencies": {
+    "cz-conventional-changelog": "3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }
