@@ -1,6 +1,6 @@
 {
   "name": "express-middleware-module-loader",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Express Middleware Module Loader",
   "main": "index.js",
   "scripts": {
